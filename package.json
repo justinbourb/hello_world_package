@@ -1,0 +1,11 @@
+{
+  "name": "hello_world_package",
+  "version": "1.0.0",
+  "description": "Sample npm package which prints 'hello world'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
