@@ -1,11 +1,19 @@
 {
-  "name": "hello_world_package",
+  "name": "@justinbourb/hello_world_package",
   "version": "1.0.0",
   "description": "Sample npm package which prints 'hello world'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "@justinbourb",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinbourb/hello_world_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinbourb/hello_world_package/issues"
+  },
+  "homepage": "https://github.com/justinbourb/hello_world_package#readme"
 }
