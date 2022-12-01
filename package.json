@@ -1,19 +1,22 @@
 {
-  "name": "@justinbourb/hello_world_package",
-  "version": "1.0.0",
-  "description": "Sample npm package which prints 'hello world'",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "@justinbourb",
+  "bugs": {
+    "url": "https://github.com/justinbourb/hello_world_package/issues"
+  },
+  "description": "Sample npm package which prints 'hello world'",
+  "homepage": "https://github.com/justinbourb/hello_world_package#readme",
   "license": "ISC",
+  "name": "@justinbourb/hello_world_package",
+  "main": "index.js",
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justinbourb/hello_world_package.git"
   },
-  "bugs": {
-    "url": "https://github.com/justinbourb/hello_world_package/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/justinbourb/hello_world_package#readme"
+  "version": "1.0.0"
 }
