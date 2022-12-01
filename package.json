@@ -9,7 +9,7 @@
   "name": "@justinbourb/hello_world_package",
   "main": "index.js",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@justinbourb:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
