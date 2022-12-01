@@ -16,7 +16,7 @@
     "url": "git+https://github.com/justinbourb/hello_world_package.git"
   },
   "scripts": {
-    "test": "exit 0"
+    "test": "passed"
   },
   "version": "1.0.0"
 }
